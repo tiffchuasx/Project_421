@@ -1,0 +1,1672 @@
+Started GET "/" for 127.0.0.1 at 2017-07-26 21:10:55 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/TiffC/.rvm/gems/ruby-2.4.1/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/TiffC/.rvm/gems/ruby-2.4.1/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (6.1ms)
+Completed 200 OK in 705ms (Views: 21.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 21:31:28 +0800
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 1502ms (Views: 856.0ms)
+
+
+Started GET "/restaurants:id" for 127.0.0.1 at 2017-07-26 22:12:40 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/restaurants:id"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/restaurants:id" for 127.0.0.1 at 2017-07-26 22:13:05 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/restaurants:id"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/restaurants:/id" for 127.0.0.1 at 2017-07-26 22:13:11 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/restaurants:/id"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/restaurants/id" for 127.0.0.1 at 2017-07-26 22:13:21 +0800
+Processing by RestaurantsController#restaurants as HTML
+  Rendering restaurants/restaurants.html.erb within layouts/application
+  Rendered restaurants/restaurants.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 531ms (Views: 398.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 22:13:28 +0800
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 24.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-27 11:05:35 +0800
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1155ms (Views: 452.1ms)
+
+
+Started GET "/restaurants/" for 127.0.0.1 at 2017-07-27 11:05:44 +0800
+Processing by RestaurantsController#restaurants as HTML
+  Rendering restaurants/restaurants.html.erb within layouts/application
+  Rendered restaurants/restaurants.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-27 11:55:42 +0800
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "Project_421_development" does not exist
+):
+  
+activerecord (5.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:705:in `rescue in connect'
+activerecord (5.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `connect'
+activerecord (5.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (71.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (23.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7655391076399220385);[0m
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRestaurants (20170727035336)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(7655391076399220385)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7655391076399220385);[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRestaurants (20170727035336)
+  [1m[35m (6.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (37.2ms)[0m  [1m[35mCREATE TABLE "restaurants" ("id" bigserial primary key, "picture" character varying, "address1" character varying, "address2" character varying, "postal_code" character varying, "contact" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (5.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170727035336"]]
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (11.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-27 03:58:07.482848"], ["updated_at", "2017-07-27 03:58:07.482848"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(7655391076399220385)[0m
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2017-07-27 11:58:24 +0800
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 469ms (Views: 460.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2017-07-27 11:58:33 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  Rendered restaurants/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @restaurants.each do |restaurant| %>
+    19:       <tr>
+    20:         <td><%= restaurant.picture %></td>
+    21:         <td><%= restaurant.address1 %></td>
+  
+app/views/restaurants/index.html.erb:18:in `_app_views_restaurants_index_html_erb___837694922466782020_70357671631940'
+app/controllers/restaurants_controller.rb:4:in `index'
+Started GET "/restaurants" for 127.0.0.1 at 2017-07-27 12:11:34 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  Rendered restaurants/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @restaurants.each do |restaurant| %>
+    19:       <tr>
+    20:         <td><%= restaurant.picture %></td>
+    21:         <td><%= restaurant.address1 %></td>
+  
+app/views/restaurants/index.html.erb:18:in `_app_views_restaurants_index_html_erb__2592928580369366170_70092798924080'
+app/controllers/restaurants_controller.rb:4:in `index'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 12:11:38 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= @restaurant.picture %>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb__2850848826481561134_70092800368680'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 12:18:21 +0800
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture_url' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= @restaurant.picture_url %>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb__4569005387299875917_70105288328200'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 12:18:25 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture_url' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= @restaurant.picture_url %>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb__4569005387299875917_70105306794900'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 12:21:40 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture)%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb__4569005387299875917_70105278115980'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 13:24:44 +0800
+  [1m[35m (8.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (13.9ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture, size:"300")%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336423956000'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 13:28:14 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture_url' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture_url, size:"300")%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336442717520'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 13:28:16 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture_url' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture_url, size:"300")%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336442803800'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 13:28:22 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture, size:"300")%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336442271200'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 13:28:24 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture, size:"300")%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336441743380'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 13:28:25 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture, size:"300")%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336441277620'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 13:33:19 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture, size:"300")%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336440754600'
+Started GET "/restaurants/" for 127.0.0.1 at 2017-07-27 13:33:48 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  Rendered restaurants/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @restaurants.each do |restaurant| %>
+    19:       <tr>
+    20:         <td><%= restaurant.picture %></td>
+    21:         <td><%= restaurant.address1 %></td>
+  
+app/views/restaurants/index.html.erb:18:in `_app_views_restaurants_index_html_erb__163178241081802077_70336440079360'
+app/controllers/restaurants_controller.rb:4:in `index'
+Started GET "/restaurants/" for 127.0.0.1 at 2017-07-27 14:00:25 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 474ms (Views: 449.0ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/restaurants/" for 127.0.0.1 at 2017-07-27 14:01:53 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 57ms (Views: 51.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:02:38 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture)%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336461921940'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:02:47 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Picture:</strong>
+    5:   <%= image_tag(@restaurant.picture)%>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/restaurants/show.html.erb:5:in `_app_views_restaurants_show_html_erb___2526271969258200189_70336462641280'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:03:49 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 146ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `id' for #<RestaurantsController:0x007ff0f73abb88>):
+  
+app/controllers/restaurants_controller.rb:18:in `show'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:04:26 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 167ms (Views: 128.9ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:10:08 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 125ms (Views: 118.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:14:46 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 86ms (Views: 81.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:17:05 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (6.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 122ms (Views: 100.2ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:17:07 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:17:31 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 32.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:17:33 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:17:34 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 42ms (Views: 38.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:22:10 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 124ms (Views: 114.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:22:12 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 43ms (Views: 37.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:22:36 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 56ms (Views: 50.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:22:37 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 36.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:26:22 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 50.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:27:40 +0800
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 465ms (Views: 415.9ms | ActiveRecord: 12.2ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:27:48 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (8.0ms)
+  Rendered restaurants/edit.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with(model: restaurant, local: true) do |form| %>
+    2:   <% if restaurant.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+    5: 
+  
+app/views/restaurants/_form.html.erb:2:in `block in _app_views_restaurants__form_html_erb__3317959968426320716_70328536761580'
+app/views/restaurants/_form.html.erb:1:in `_app_views_restaurants__form_html_erb__3317959968426320716_70328536761580'
+app/views/restaurants/edit.html.erb:3:in `_app_views_restaurants_edit_html_erb__1474685536522396170_70328546569200'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:30:15 +0800
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:10:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:30:36 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.2ms)
+  Rendered restaurants/edit.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with(model: restaurant, local: true) do |form| %>
+    2:   <% if restaurant.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+    5: 
+  
+app/views/restaurants/_form.html.erb:2:in `block in _app_views_restaurants__form_html_erb__3317959968426320716_70328536229900'
+app/views/restaurants/_form.html.erb:1:in `_app_views_restaurants__form_html_erb__3317959968426320716_70328536229900'
+app/views/restaurants/edit.html.erb:3:in `_app_views_restaurants_edit_html_erb__1474685536522396170_70328528467460'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:30:48 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (4.1ms)
+  Rendered restaurants/edit.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with(model: restaurant, local: true) do |form| %>
+    2:   <% if restaurant.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+    5: 
+  
+app/views/restaurants/_form.html.erb:2:in `block in _app_views_restaurants__form_html_erb__3317959968426320716_70328527041320'
+app/views/restaurants/_form.html.erb:1:in `_app_views_restaurants__form_html_erb__3317959968426320716_70328527041320'
+app/views/restaurants/edit.html.erb:3:in `_app_views_restaurants_edit_html_erb__1474685536522396170_70328527151440'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:31:52 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.7ms)
+  Rendered restaurants/edit.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with(model: restaurant, local: true) do |form| %>
+    2:   <% if restaurant.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+    5: 
+  
+app/views/restaurants/_form.html.erb:2:in `block in _app_views_restaurants__form_html_erb__3317959968426320716_70328546755000'
+app/views/restaurants/_form.html.erb:1:in `_app_views_restaurants__form_html_erb__3317959968426320716_70328546755000'
+app/views/restaurants/edit.html.erb:3:in `_app_views_restaurants_edit_html_erb__1474685536522396170_70328546790060'
+Started GET "/restaurants" for 127.0.0.1 at 2017-07-27 14:31:55 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 116ms (Views: 96.3ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:32:02 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 43ms (Views: 31.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:33:20 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 94ms (Views: 89.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/" for 127.0.0.1 at 2017-07-27 14:33:24 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:33:28 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (5.3ms)
+  Rendered restaurants/edit.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with(model: restaurant, local: true) do |form| %>
+    2:   <% if restaurant.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+    5: 
+  
+app/views/restaurants/_form.html.erb:2:in `block in _app_views_restaurants__form_html_erb__3317959968426320716_70328533849960'
+app/views/restaurants/_form.html.erb:1:in `_app_views_restaurants__form_html_erb__3317959968426320716_70328533849960'
+app/views/restaurants/edit.html.erb:3:in `_app_views_restaurants_edit_html_erb__1474685536522396170_70328533955080'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:38:08 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (4.3ms)
+  Rendered restaurants/edit.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with(model: restaurant, local: true) do |form| %>
+    2:   <% if restaurant.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+    5: 
+  
+app/views/restaurants/_form.html.erb:2:in `block in _app_views_restaurants__form_html_erb__3317959968426320716_70328528220400'
+app/views/restaurants/_form.html.erb:1:in `_app_views_restaurants__form_html_erb__3317959968426320716_70328528220400'
+app/views/restaurants/edit.html.erb:3:in `_app_views_restaurants_edit_html_erb__1474685536522396170_70328535409540'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:42:51 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (63.3ms)
+  Rendered restaurants/edit.html.erb within layouts/application (67.4ms)
+Completed 200 OK in 192ms (Views: 154.7ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:44:59 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.2ms)
+  Rendered restaurants/edit.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 105ms (Views: 99.6ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:45:06 +0800
+  
+AbstractController::ActionNotFound (The action 'update' could not be found for RestaurantsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:45:23 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5YR09TNw1aIxkn+KzjaLsVVGuGB1fL8P9aqVOhtvjKltAFaVcT75Z9Uj5YbxsLqPgEKcUjYGp66NCW6Id5ax4Q==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 107ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:45:27 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (5.1ms)
+  Rendered restaurants/edit.html.erb within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with(model: restaurant, local: true) do |form| %>
+    2:   <% if restaurant.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+    5: 
+  
+app/views/restaurants/_form.html.erb:2:in `block in _app_views_restaurants__form_html_erb__3317959968426320716_70328506829560'
+app/views/restaurants/_form.html.erb:1:in `_app_views_restaurants__form_html_erb__3317959968426320716_70328506829560'
+app/views/restaurants/edit.html.erb:3:in `_app_views_restaurants_edit_html_erb__1474685536522396170_70328547893080'
+Started GET "/restaurants/1/update" for 127.0.0.1 at 2017-07-27 14:45:33 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/restaurants/1/update"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:45:46 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.4ms)
+  Rendered restaurants/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 126ms (Views: 98.2ms | ActiveRecord: 6.9ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:45:49 +0800
+  
+AbstractController::ActionNotFound (The action 'update' could not be found for RestaurantsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:52:56 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rnaLMt0clsSnAeAzJT102Vn66VXTkm4tpE6SMCrT7Z4m8qlSn1K6AUOwej8au0XnjP7NZ5Dodozc7WmCRirQ1g==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Class:0x007fed48205390>
+Did you mean?  _default_attributes):
+  
+app/controllers/restaurants_controller.rb:27:in `update'
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:53:17 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rnaLMt0clsSnAeAzJT102Vn66VXTkm4tpE6SMCrT7Z4m8qlSn1K6AUOwej8au0XnjP7NZ5Dodozc7WmCRirQ1g==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 87ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:53:20 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 103ms (Views: 98.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:53:23 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.3ms)
+  Rendered restaurants/edit.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 40ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:53:25 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fau24yBX6BsyxFQk2i31AxrZYw6d7rgnbHFdyZMj0I0TFRz+eHXj0l6HAnD8VYseQNnac/tDNrJcqB+EEumURQ==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 71ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:53:36 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (5.0ms)
+  Rendered restaurants/edit.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:53:40 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j70vDFyMPi0v9zm1KTu0114qmB08tfm8BLhaegeqc54HOQ1sHsIS6MtGo7kWvYXpiy68L3/P4R18G6HIa1NO1g==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl A", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "restaurants" SET "restaurant_name" = $1, "updated_at" = $2 WHERE "restaurants"."id" = $3[0m  [["restaurant_name", "Cheek By Jowl A"], ["updated_at", "2017-07-27 06:53:40.540332"], ["id", 1]]
+  [1m[35m (12.7ms)[0m  [1m[35mCOMMIT[0m
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 82ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 14:55:08 +0800
+  [1m[35m (9.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (45.4ms)
+  Rendered restaurants/edit.html.erb within layouts/application (52.6ms)
+Completed 200 OK in 583ms (Views: 534.3ms | ActiveRecord: 7.3ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 14:55:12 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zx7eWFJhm1kxpVEjQ7DTvo3oDlKAFge1ykIUu1KWhGjvmvw4EC+3nNUUyy98NuKAWOwqYMNsHxSy4e8JPm+5IA==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl A", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Class:0x007ff8d7ec5fe0>
+Did you mean?  _default_attributes):
+  
+app/controllers/restaurants_controller.rb:27:in `update'
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:03:27 +0800
+  
+SyntaxError (/Users/TiffC/Desktop/OneDrive - Allies Group Pte Ltd/TIFF/WDI/Project_421/app/controllers/restaurants_controller.rb:28: syntax error, unexpected tFID, expecting keyword_end
+ant[:restaurant_name] updated!
+                              ^):
+  
+app/controllers/restaurants_controller.rb:28: syntax error, unexpected tFID, expecting keyword_end
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:03:31 +0800
+  
+SyntaxError (/Users/TiffC/Desktop/OneDrive - Allies Group Pte Ltd/TIFF/WDI/Project_421/app/controllers/restaurants_controller.rb:28: syntax error, unexpected tFID, expecting keyword_end
+ant[:restaurant_name] updated!
+                              ^):
+  
+app/controllers/restaurants_controller.rb:28: syntax error, unexpected tFID, expecting keyword_end
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:04:15 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 211ms (Views: 169.5ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:04:18 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (4.9ms)
+  Rendered restaurants/edit.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 53ms (Views: 42.6ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:04:22 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0saarMsQGxf6ZtD2mwt6yzUOX4NdDxg01V5uN6aPaky8eDCxkzIQ3pYlhqK9cwTWbw7m/juilqHlhyx6J0UuhA==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl A", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 76ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:18:53 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (4.4ms)
+  Rendered restaurants/edit.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 153ms (Views: 112.7ms | ActiveRecord: 10.7ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:18:56 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bEe5iDHKtWojjDsR7rdSNth+8ruFGG/aIoU+s1auOlLkw5voc4SZr8c9oR3RMWMIDXrWicZid3taJsUBOlcHGg==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl A", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/restaurants_controller.rb:29:in `update'
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:19:44 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bEe5iDHKtWojjDsR7rdSNth+8ruFGG/aIoU+s1auOlLkw5voc4SZr8c9oR3RMWMIDXrWicZid3taJsUBOlcHGg==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl A", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/restaurants_controller.rb:29:in `update'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:19:48 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 125ms (Views: 77.7ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:19:50 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (6.0ms)
+  Rendered restaurants/edit.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 50ms (Views: 43.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:19:51 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C9yNopE6xihjwZlk5YpPe+tVCYnJlwyBy7pAxjIAaK5lYie/yRjN4Q+CzzDD8jFmsVWw9K86ghT7YwKLs8osZg==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl A", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/restaurants_controller.rb:29:in `update'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:19:55 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (4.2ms)
+  Rendered restaurants/edit.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 39ms (Views: 36.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:19:57 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 42.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:20:02 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (5.8ms)
+  Rendered restaurants/edit.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 84ms (Views: 77.4ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:20:05 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MEZFkau6q+ZbWQfGiyDwAw81fGqFFc8IJ2c59xVqBA5e+O+M85igLzcaUZKtWI4eVTXFF+O4QZ0Xvnu6lKBAxg==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl B", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/restaurants_controller.rb:29:in `update'
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:20:08 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:20:25 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 29.6ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:20:27 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (5.5ms)
+  Rendered restaurants/edit.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 47ms (Views: 43.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:20:30 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EwhmyDHS2FcoP3HbIsK9hbFvtWTXef/RuV5O5bk3zGp9tszVafDTnkR8J48EusOY628MGbHUcUSJhwyoOP2Iog==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl B", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `update_attributes' for nil:NilClass):
+  
+app/controllers/restaurants_controller.rb:29:in `update'
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:20:34 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.7ms)
+  Rendered restaurants/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 37ms (Views: 33.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/1/" for 127.0.0.1 at 2017-07-27 15:20:38 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/1/" for 127.0.0.1 at 2017-07-27 15:23:17 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `set_event' for #<RestaurantsController:0x007ff8dab9ab88>
+Did you mean?  set_request!):
+  
+activesupport (5.1.2) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.2) lib/active_support/callbacks.rb:178:in `block (2 levels) in halting_and_conditional'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.2) lib/active_support/callbacks.rb:179:in `block in halting_and_conditional'
+activesupport (5.1.2) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.2) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.2) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.2) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.2) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.2) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/restaurants/1/" for 127.0.0.1 at 2017-07-27 15:23:33 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 114ms (Views: 84.0ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:23:35 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.8ms)
+  Rendered restaurants/edit.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 48ms (Views: 41.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:23:39 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JuSJF31n69CSSEMtvnTm2PQLm+xNdJ5cc1EkFLx6DBlIWiMKJUXgGf4LFXmYDJjFrgsikSvZEMlDiGZZPbBI0Q==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl B", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "restaurants" SET "restaurant_name" = $1, "updated_at" = $2 WHERE "restaurants"."id" = $3[0m  [["restaurant_name", "Cheek By Jowl B"], ["updated_at", "2017-07-27 07:23:39.073959"], ["id", 1]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 4.7ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/controllers/restaurants_controller.rb:30:in `+'
+app/controllers/restaurants_controller.rb:30:in `update'
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:24:08 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JuSJF31n69CSSEMtvnTm2PQLm+xNdJ5cc1EkFLx6DBlIWiMKJUXgGf4LFXmYDJjFrgsikSvZEMlDiGZZPbBI0Q==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl B", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 104ms (ActiveRecord: 11.6ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:24:14 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JuSJF31n69CSSEMtvnTm2PQLm+xNdJ5cc1EkFLx6DBlIWiMKJUXgGf4LFXmYDJjFrgsikSvZEMlDiGZZPbBI0Q==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl B", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 71ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:24:16 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 92ms (Views: 87.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:24:19 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (5.9ms)
+  Rendered restaurants/edit.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 52ms (Views: 41.7ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:24:46 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TTFw/3vGCHToemJqY7Aqqm4xdFXlwfBOnT3UBs4xl5sjj9riI+QDvYQ5ND5FyFS3NDHNKINsftut5JZLT/vTUw==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl B", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 73ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:25:08 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.3ms)
+  Rendered restaurants/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 116ms (Views: 109.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:25:15 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jGUfL0OUc+vO0Xx55St/UH+D9H12PR2RDUmUACb3iqYE4T1PAdpfLipg5nXarU5uqofQTzVHBTB16m+ySg637g==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl C", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "restaurants" SET "restaurant_name" = $1, "updated_at" = $2 WHERE "restaurants"."id" = $3[0m  [["restaurant_name", "Cheek By Jowl C"], ["updated_at", "2017-07-27 07:25:15.158101"], ["id", 1]]
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+No template found for RestaurantsController#update, rendering head :no_content
+Completed 204 No Content in 74ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2017-07-27 15:25:20 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2017-07-27 15:25:55 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 104ms (Views: 92.5ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 15:25:59 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (6.1ms)
+  Rendered restaurants/edit.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 44ms (Views: 35.6ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:26:04 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HDmYQIS8S/sC4gZ5ZJxocgs8pFjNxqfAcXo0OnKJ3KFyhzJd3J5AMm6hUC1C5BZvUTwdJatrKVVBo3Z380OYaQ==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl D", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "restaurants" SET "restaurant_name" = $1, "updated_at" = $2 WHERE "restaurants"."id" = $3[0m  [["restaurant_name", "Cheek By Jowl D"], ["updated_at", "2017-07-27 07:26:04.450188"], ["id", 1]]
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/restaurants/1
+Completed 302 Found in 11ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:26:04 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33ms (Views: 28.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 15:36:59 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 123ms (Views: 117.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 16:39:05 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 280ms (Views: 245.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 16:39:07 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (13.4ms)
+  Rendered restaurants/edit.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 67ms (Views: 57.0ms | ActiveRecord: 1.2ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 16:39:11 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"teRnYA6AjDQQn3JofO8PU81+7J/a5prQnR9VayDWeKfbWs19VqKH/XzcJDxal3FOl35V4rxLFEWtxhcmoRw8bw==", "restaurant"=>{"restaurant_name"=>"Cheek By Jowl E", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[33mUPDATE "restaurants" SET "restaurant_name" = $1, "updated_at" = $2 WHERE "restaurants"."id" = $3[0m  [["restaurant_name", "Cheek By Jowl E"], ["updated_at", "2017-07-27 08:39:11.231945"], ["id", 1]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/restaurants/1
+Completed 302 Found in 27ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 16:39:11 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/" for 127.0.0.1 at 2017-07-27 16:39:17 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 36ms (Views: 32.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 20:02:25 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 166ms (Views: 146.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants/1/edit" for 127.0.0.1 at 2017-07-27 20:02:29 +0800
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/edit.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (12.7ms)
+  Rendered restaurants/edit.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 77ms (Views: 65.3ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/restaurants/1" for 127.0.0.1 at 2017-07-27 20:02:36 +0800
+Processing by RestaurantsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dO32kQZrAN0oVaG36+OW0XDD+LIr/UblGCHMtCBxXcAaU1yMXkkLFEQW9+PNm+jMKsNBz01QyHAo+I75obsZCA==", "restaurant"=>{"restaurant_name"=>"Cheek Bbhnvvh", "picture"=>"http://res.cloudinary.com/dk2c1re0u/image/upload/v1501128532/restaurant_cheekbyjowl_p6cw6r.png", "address1"=>"21 Boon Tat Street", "address2"=>"Singapore", "postal_code"=>"069620", "contact"=>"(65) 6221 1911"}, "commit"=>"Update Restaurant", "id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "restaurants" SET "restaurant_name" = $1, "updated_at" = $2 WHERE "restaurants"."id" = $3[0m  [["restaurant_name", "Cheek Bbhnvvh"], ["updated_at", "2017-07-27 12:02:36.887473"], ["id", 1]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/restaurants/1
+Completed 302 Found in 19ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 20:02:36 +0800
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2017-07-27 20:18:12 +0800
+  [1m[35m (10.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 902ms (Views: 816.2ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/restaurants/" for 127.0.0.1 at 2017-07-27 20:18:18 +0800
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 80ms (Views: 69.9ms | ActiveRecord: 0.8ms)
+
+
