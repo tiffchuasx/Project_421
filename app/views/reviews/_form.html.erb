@@ -1,0 +1,52 @@
+<%= form_with(model: review, local: true) do |form| %>
+  <% if review.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(review.errors.count, "error") %> prohibited this review from being saved:</h2>
+
+      <ul>
+      <% review.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :user_picture %>
+    <%= form.text_field :user_picture, id: :review_user_picture %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :review_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :user_spending %>
+    <%= form.text_field :user_spending, id: :review_user_spending %>
+  </div>
+
+  <div class="field">
+    <%= form.label :no_of_parties %>
+    <%= form.text_field :no_of_parties, id: :review_no_of_parties %>
+  </div>
+
+  <div class="field">
+    <%= form.label :overall_rating %>
+    <%= form.text_field :overall_rating, id: :review_overall_rating %>
+  </div>
+
+  <div class="field">
+    <%= form.label :who_brought_me_here %>
+    <%= select(:who_brought_me_here, options_for_select([['Daniel Food Diary'], ['Miss Tamchiak'], ['Seth Lui']])), id: :review_who_brought_me_here %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Other_Comments %>
+    <%= form.text_field :char_review, id: :review_char_review %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

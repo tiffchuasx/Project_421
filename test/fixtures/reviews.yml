@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_picture: 
+  name: 
+  user_spending: 
+  no_of_parties: 
+  overall_rating: 
+  who_brought_me_here: 
+  160_char_review: MyString
+
+two:
+  user_picture: 
+  name: 
+  user_spending: 
+  no_of_parties: 
+  overall_rating: 
+  who_brought_me_here: 
+  160_char_review: MyString

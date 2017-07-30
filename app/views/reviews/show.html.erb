@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <%= image_tag(@review.user_picture, size:"100") %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @review.name %>
+</p>
+
+<p>
+  <strong>I spent: $</strong><%= @review.user_spending %><strong> on:</strong> <%= @review.no_of_parties %> <strong> pax</strong>
+
+</p>
+
+<p>
+  <strong>Overall rating:</strong>
+  <%= @review.overall_rating %>
+</p>
+
+<p>
+  <strong>Who brought me here:</strong>
+  <%= @review.who_brought_me_here %>
+</p>
+
+<p>
+  <%= "\"" + @review.char_review + "\""  %>
+</p>
+
+<%= link_to 'Edit', edit_review_path(@review) %> |
+<%= link_to 'Back', reviews_path %>
